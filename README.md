@@ -1,0 +1,2 @@
+Desenvolva uma plataforma para criar e oferecer cursos online, com recursos como criação de conteúdo, gerenciamento de alunos, avaliação de desempenho e certificação.
+Crie um sistema abrangente para gerenciamento de uma escola, com funcionalidades como cadastro de alunos, professores e funcionários, controle de notas, frequência e horários de aula, geração de relatórios acadêmicos, gestão de matrículas, entre outros.
