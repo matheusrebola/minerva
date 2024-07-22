@@ -1,4 +1,4 @@
-package br.org.gestao.minerva.entities;
+package minerva.entities;
 
 public record Perguntas() {
 

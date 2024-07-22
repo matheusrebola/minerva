@@ -1,4 +1,4 @@
-package br.org.gestao.minerva;
+package minerva;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
