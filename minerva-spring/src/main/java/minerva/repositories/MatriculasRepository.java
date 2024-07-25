@@ -1,4 +1,4 @@
-package minerva.repositorys;
+package minerva.repositories;
 
 import java.util.UUID;
 

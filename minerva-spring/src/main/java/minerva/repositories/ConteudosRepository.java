@@ -1,13 +1,13 @@
-package minerva.repositorys;
+package minerva.repositories;
 
 import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import minerva.entities.Modulos;
+import minerva.entities.Conteudos;
 
 @Repository
-public interface ModulosRepository extends JpaRepository<Modulos, UUID> {
+public interface ConteudosRepository extends JpaRepository<Conteudos, UUID> {
 
 }

@@ -1,13 +1,13 @@
-package minerva.repositorys;
+package minerva.repositories;
 
 import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import minerva.entities.Perguntas;
+import minerva.entities.Avaliacoes;
 
 @Repository
-public interface PerguntasRepository extends JpaRepository<Perguntas, UUID> {
+public interface AvaliacoesRepository extends JpaRepository<Avaliacoes, UUID> {
 
 }

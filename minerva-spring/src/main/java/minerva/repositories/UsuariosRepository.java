@@ -1,13 +1,13 @@
-package minerva.repositorys;
+package minerva.repositories;
 
 import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import minerva.entities.Progresso;
+import minerva.entities.Usuarios;
 
 @Repository
-public interface ProgressoRepository extends JpaRepository<Progresso, UUID> {
+public interface UsuariosRepository extends JpaRepository<Usuarios, UUID> {
 
 }
