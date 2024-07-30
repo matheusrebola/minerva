@@ -1,5 +1,10 @@
 package minerva.entities;
 
-public record CursosUsuario() {
+import jakarta.persistence.Entity;
+
+@Entity
+public record CursosUsuario(
+		Cursos curso,
+		Usuarios usuario) {
 
 }
