@@ -3,8 +3,10 @@ package minerva.dtos;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
+import jakarta.validation.constraints.NotNull;
+
 public record CursosDto(
-		UUID id,
+		@NotNull UUID id,
 		String titulo,
 		LocalDateTime dataCriacao) {
 

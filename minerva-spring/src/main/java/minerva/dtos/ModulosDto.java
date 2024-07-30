@@ -2,10 +2,11 @@ package minerva.dtos;
 
 import java.util.UUID;
 
+import jakarta.validation.constraints.NotNull;
 import minerva.entities.Cursos;
 
 public record ModulosDto(
-		UUID id,
+		@NotNull UUID id,
 		String titulo,
 		String descricao,
 		Integer ordem,
