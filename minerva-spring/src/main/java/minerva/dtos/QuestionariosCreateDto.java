@@ -1,5 +1,10 @@
 package minerva.dtos;
 
-public record QuestionariosCreateDto() {
+import minerva.entities.Conteudos;
+
+public record QuestionariosCreateDto(
+		String titulo,
+		String descricao,
+		Conteudos conteudo) {
 
 }

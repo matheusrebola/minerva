@@ -1,5 +1,16 @@
 package minerva.dtos;
 
-public record CertificadosDto() {
+import java.time.LocalDateTime;
+import java.util.UUID;
+
+import minerva.entities.Cursos;
+import minerva.entities.Usuarios;
+
+public record CertificadosDto(
+		UUID id,
+		LocalDateTime dataEmissao,
+		UUID codigoCertificado,
+		Usuarios usuario,
+		Cursos curso) {
 
 }

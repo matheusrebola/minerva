@@ -1,5 +1,11 @@
 package minerva.dtos;
 
-public record PerguntasCreateDto() {
+import minerva.entities.Questionarios;
+import minerva.entities.TipoPergunta;
+
+public record PerguntasCreateDto(
+		String pergunta,
+		TipoPergunta tipoPergunta,
+		Questionarios questionario) {
 
 }

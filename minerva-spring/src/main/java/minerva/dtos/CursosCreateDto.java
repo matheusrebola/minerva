@@ -1,5 +1,9 @@
 package minerva.dtos;
 
-public record CursosCreateDto() {
+import java.time.LocalDateTime;
+
+public record CursosCreateDto(
+		String titulo,
+		LocalDateTime dataCriacao) {
 
 }

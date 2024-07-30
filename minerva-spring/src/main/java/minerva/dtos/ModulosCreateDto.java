@@ -1,5 +1,11 @@
 package minerva.dtos;
 
-public record ModulosCreateDto() {
+import minerva.entities.Cursos;
+
+public record ModulosCreateDto(
+		String titulo,
+		String descricao,
+		Integer ordem,
+		Cursos curso) {
 
 }
